@@ -13,6 +13,14 @@
             // SOME CODE HERE
           });
       },
+      testMethod2() {
+        Promise.all([
+          Promise.resolve()
+            .then(() => {
+              // SOME CODE HERE
+            }),
+        ])
+      },
     },
   };
 </script>
